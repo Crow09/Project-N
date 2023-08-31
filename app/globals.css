@@ -1,0 +1,62 @@
+body {
+  margin: 0px;
+}
+
+.navbar {
+  background: rgb(83, 126, 83);
+  display: flex;
+}
+
+.navbar p {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color:rgb(250, 248, 248);
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.list-bg {
+  background: burlywood;
+  padding: 3px;
+}
+
+.list-item {
+  background-color: rgb(237, 215, 187);
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.list-item p {
+  padding: 10px;
+
+}
+
+.list-item a {
+  color: rgb(128, 59, 59);
+}
+
+.detail {
+  background: peru;
+  color: white;
+  padding: 10px; 
+}
+
+.new {
+  background-color: white;
+  padding: 10px;
+}
+
+.new-item {
+  width: 250px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.msg {
+  font-size: 30px;
+  text-align: center;
+}
