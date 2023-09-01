@@ -27,11 +27,13 @@ a {
   background-color: rgb(237, 215, 187);
   margin: 10px;
   border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .list-item p {
-  padding: 10px;
-
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .list-item a {
@@ -46,11 +48,10 @@ a {
 
 .new {
   background-color: white;
-  padding: 10px;
 }
 
 .new-item {
-  width: 250px;
+  width: 300px;
   margin: 10px;
   display: flex;
   justify-content: space-between;
