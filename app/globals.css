@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  font-size: 20px;
+}
+
+.navbar {
+  background-color: rgb(116, 192, 113);
+  padding: 10px;
+  display: flex;
+}
+
+.nav-item {
+  padding: 5px;
+  color: black;
+  font-size: 20px;
+}
+
+.list {
+  background-color: rgb(245, 159, 192);
+}
+
+.list-item {
+  padding: 10px;
+  font-size: 20px;
+  border-bottom: solid white 1px;
+}
+
+.detail {
+  background-color: rgb(233, 147, 255);
+}
+
+.detail-item {
+  color: black;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.new {
+  background-color: rgb(237, 235, 100);
+  padding: 15px;
+}
+
+.new-item {
+  border-bottom: solid #ffb0b0 1px;
+  padding: 15px;
+}
